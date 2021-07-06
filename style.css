@@ -1,0 +1,176 @@
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+.blue-color{
+    color: blue;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, red);
+    padding: 20px 40px;
+    color: white;
+    font-size: medium;
+    font-weight: 500;
+    border-radius: 30px;
+}
+.section-container{
+    display: flex;
+    margin-bottom: 100px;    
+}
+h1{
+    font-size: 70px;
+    font-weight: 900;
+}
+h2{
+    font-size: 30px;
+    font-weight: 900;
+    color: rgb(131, 128, 128);
+    padding-top: 40px;
+}
+h3{
+    font-size: 20px;
+    font-weight: 900;
+    color: black;
+    padding-bottom: 0;
+}
+#p-one{
+    font-size: 20px;
+    color: rgb(131, 128, 128);
+    padding-bottom: 50px;
+}
+.half-width{
+    width: 50%;
+    padding: 40px 15px  25px 50px;
+}
+.half-width img{
+    width: 90%;
+}
+.healthy-half-width{
+    width: 50%;
+    text-decoration: double;
+    padding: 20px 45px;
+}
+.healthy-half-width img{
+    width: 100%;
+}
+#second-image{
+    width: 50%;
+    padding-left: 20%;
+    padding-top: 12%;
+}
+.background-image{
+    background-image: url(./images/shapes/7.png);
+    background-repeat: no-repeat;
+}
+#p-two{
+    font-size: normal;
+    color: black;
+    padding-bottom: 60px;
+    padding-right: 200px;
+    line-height: 1.8;
+}
+.recipie-title{
+    text-align: center;
+    color: rgb(131, 128, 128);
+    margin: 0px 400px;
+    padding-bottom: 20px;
+}
+.food-image{
+    width: 100%;
+}
+.p-recipie{
+    line-height: 1.8;
+}
+.recipies-item{
+    width: 50%;
+    margin: 30px 30px;
+    padding: 15px 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px grey;
+}
+.rating-box{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 200px;
+    width: 80%;
+    display: flex;
+    padding: 5px 5px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px grey;
+}
+.rating-item{
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 5px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+footer{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background-color: black;
+    color: rgb(131, 128, 128);
+    padding-bottom: 60px;
+}
+
+.food-header h2{
+    text-align: center;
+}
+
+.food-item-detail{
+    display: flex;
+    padding: 0% 10%;
+}
+
+.left-side{
+    width: 40%;
+    margin-right: 8%;
+    padding: 10px 20px;
+    border-radius: 35px;
+    box-shadow: 10px 20px 40px grey;
+}
+.left-side img{
+    width: 100%;
+}
+.right-side{
+    width: 40%;
+    margin-right: 8%;
+    padding: 10px 20px;
+    border-radius: 35px;
+    box-shadow: 10px 20px 40px grey;
+}
+
+.right-side img{
+    width: 100%;
+    border-radius: 35px;
+    margin-top: 5px;
+}
+
+.contact-us-form{
+    background: #c9c8c8;
+    padding: 0% 10% 5% 10%;
+}
+.contact-us-form h2{
+    text-align: center;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #9ca09e;
+    color: black;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+}
